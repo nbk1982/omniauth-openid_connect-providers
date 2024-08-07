@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/openid_connect/providers/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-openid_connect-providers"
+  spec.name          = "omniauth-openid_connect-providers-nbk"
   spec.version       = Omniauth::OpenidConnect::Providers::VERSION
-  spec.authors       = ["Finn GmbH"]
-  spec.email         = ["info@finn.de"]
-  spec.summary       = %q{Offers a means to configure OmniAuth OpenIDConnect providers comfortably.}
-  spec.homepage      = "https://github.com/finnlabs/omniauth-openid_connect-providers"
+  spec.authors       = ["Lucas Bender"]
+  spec.email         = ["lucas@benderlabs.com.br"]
+  spec.summary       = %q{Offers a means to configure OmniAuth OpenIDConnect NBK providers comfortably.}
+  spec.homepage      = "https://github.com/nbk1982/omniauth-openid_connect-providers-nbk"
   spec.license       = "GPLv3"
 
   spec.files         = `git ls-files`.split($/)
